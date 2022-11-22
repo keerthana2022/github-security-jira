@@ -32,10 +32,6 @@ class SyncCommand extends Command
     protected $requiredOptions = [
         'GITHUB_REPOSITORY',
         'GH_SECURITY_TOKEN',
-        'JIRA_HOST',
-        'JIRA_USER',
-        'JIRA_TOKEN',
-        'JIRA_PROJECT',
     ];
 
     /**
